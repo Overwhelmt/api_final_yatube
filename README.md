@@ -127,7 +127,7 @@ PATCH /api/v1/posts/{id}/
 }
 ```
 
-- Частичное обновление публикации:
+- Удаление публикации:
 
 ```r
 DEL /api/v1/posts/{id}/
@@ -190,5 +190,3 @@ POST /api/v1/jwt/verify/
 ```r
 GET /api/v1/posts/?limit=5&offset=0
 ```
--Dovgopol Vadim
--https://github.com/Vadim7744
